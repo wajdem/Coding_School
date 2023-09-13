@@ -55,8 +55,8 @@ let reverseOdd = (Stringe = "") => {
 let arrayOne = "Bananas";
 let arrayTwo = "One two three four";
 
-console.log(reverseOdd(arrayOne));
-console.log(reverseOdd(arrayTwo));
+console.log(reverseOdd(arrayOne)); // The Result sananaB
+console.log(reverseOdd(arrayTwo)); // The Result enO owt eerht four
 
 //________________ Tack Four _______________________
 console.log("____________________ Tack Four _______________");
@@ -65,6 +65,6 @@ console.log("____________________ Tack Four _______________");
 const isPandigital = (number) =>
   new Set(number.toString().split("")).size === 10;
 
-console.log(isPandigital(98140723568910));
-console.log(isPandigital(90864523148909));
-console.log(isPandigital(112233445566778899));
+console.log(isPandigital(98140723568910)); // The Result true
+console.log(isPandigital(90864523148909)); // The Result false
+console.log(isPandigital(112233445566778899)); // The Result true
